@@ -19,7 +19,7 @@
     <main class="bg-gray-100 flex items-center justify-center min-h-screen">
 
         <!-- Verification Form -->
-        <div class="bg-white rounded-lg shadow-md p-8 w-full max-w-md flex flex-col ">
+        <div id="pdf-content" class="bg-white rounded-lg shadow-md p-8 w-full max-w-md flex flex-col ">
             <!-- Title -->
             @yield('body')
         </div>

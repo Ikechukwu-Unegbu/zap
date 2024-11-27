@@ -1,6 +1,13 @@
 @extends('layouts.new-guest')
+  @section('body')
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+    integrity="sha384-ZZ1pncU3bQe8y31yfZdMFdSpttDoPmOZg2wguVK9almUodir1PghgT0eY7Mrty8H"
+    crossorigin="anonymous"></script>
 
-@section('body')
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@1.6.0/dist/flowbite.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
     <!-- Approval Number -->
     <p class="text-sm font-medium mb-4">
       <span class="font-semibold float-left">Building Approval Number:</span> 
@@ -26,7 +33,7 @@
     <button id="download-btn" type="button" class="bg-blue-600 text-white text-sm px-6 py-2 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2">
       Download
     </button>
-  </div>
+
 
   <script>
   document.getElementById('download-btn').addEventListener('click', function () {
@@ -63,4 +70,4 @@
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/flowbite@1.6.0/dist/flowbite.min.js"></script>
-@endsection 
+@endsection
