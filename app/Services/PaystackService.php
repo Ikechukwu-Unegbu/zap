@@ -39,7 +39,7 @@ class PaystackService{
 
             $response = Http::withHeaders([
                 'Accept' => 'application/json',
-                'Authorization' => 'Bearer ' . env('PAYSTACK_SECRET'),
+                'Authorization' => 'Bearer ' . env('PAYSTACK_KEY'),
             ])->post('https://api.paystack.co/transaction/initialize', [
                 'reference'     =>  $transaction->reference_id,
                 'amount'        =>  $transaction->amount * 100,
