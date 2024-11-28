@@ -16,7 +16,7 @@ class AuthService
     {
         try {
             // Make an HTTP POST request to the authentication endpoint
-            $response = Http::post('https://zlqr1c5l-3000.uks1.devtunnels.ms/auth/login', [
+            $response = Http::post('https://zlqr1c5l-3000.uks1.devtunnels.ms/auth/admin-login', [
                 'email' => $email,
                 'password' => $password,
             ]);

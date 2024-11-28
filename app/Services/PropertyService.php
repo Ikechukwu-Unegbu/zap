@@ -9,7 +9,8 @@ class PropertyService
     public function getToken()
     {
         $service = new AuthService();
-        $response = $service->login('samsmith22@gmail.com', '1234567890');
+        $response = $service->login('ikokpun@houseafrica.io', 'HouseAfrica@1');
+        // dd($response);
         $jwtToken = $response['data']['data']['accessToken'];
         return $jwtToken;
     }
@@ -23,6 +24,7 @@ class PropertyService
      */
     public function searchDocuments(array $searchParameters): array
     {
+        // dd($this->getToken());
         try {
             // Make a GET request to the document search endpoint
             $response = Http::withToken($this->getToken())
@@ -41,12 +43,14 @@ class PropertyService
                 'success' => false,
                 'message' => $response->json('message') ?? 'Failed to search documents.',
                 'status_code' => $response->status(),
+                'data'=>[]
             ];
         } catch (\Exception $e) {
             // Handle exceptions
             return [
                 'success' => false,
                 'message' => $e->getMessage(),
+                'data'=>[]
             ];
         }
     }
