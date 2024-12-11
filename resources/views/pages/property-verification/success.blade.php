@@ -23,7 +23,7 @@
     <!-- Title -->
     <h2 class="text-lg font-semibold mb-2">
     @if(empty($response['data']))
-        Property is NOT approved!
+        {{$response['message']}}
     @else
         Property is approved!
     @endif

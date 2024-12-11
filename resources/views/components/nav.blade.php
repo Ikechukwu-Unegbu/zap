@@ -4,19 +4,20 @@
                 <!-- Logo -->
                 <div class="flex items-center">
                     <!-- <img src="https://via.placeholder.com/40" alt="Zap Logo" class="h-8 w-8 rounded-full mr-2"> -->
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_426_1008)">
-<path d="M24 46C36.1506 46 46 36.1506 46 24C46 11.8494 36.1506 2 24 2C11.8494 2 2 11.8494 2 24C2 36.1506 11.8494 46 24 46Z" fill="#CEE0FA" stroke="#CEE0FA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M23.722 10L14.446 23.494C13.886 24.306 13.606 24.712 13.626 25.05C13.6329 25.1952 13.6713 25.3372 13.7387 25.466C13.806 25.5949 13.9007 25.7075 14.016 25.796C14.286 26 14.776 26 15.764 26H23.722V36L32.998 22.506C33.558 21.694 33.838 21.288 33.818 20.95C33.8111 20.8048 33.7727 20.6628 33.7053 20.534C33.638 20.4051 33.5433 20.2925 33.428 20.204C33.158 20 32.668 20 31.68 20H23.722V10Z" fill="#0B63E5" stroke="#0B63E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0_426_1008">
-<rect width="48" height="48" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+                    <!-- <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_426_1008)">
+                    <path d="M24 46C36.1506 46 46 36.1506 46 24C46 11.8494 36.1506 2 24 2C11.8494 2 2 11.8494 2 24C2 36.1506 11.8494 46 24 46Z" fill="#CEE0FA" stroke="#CEE0FA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M23.722 10L14.446 23.494C13.886 24.306 13.606 24.712 13.626 25.05C13.6329 25.1952 13.6713 25.3372 13.7387 25.466C13.806 25.5949 13.9007 25.7075 14.016 25.796C14.286 26 14.776 26 15.764 26H23.722V36L32.998 22.506C33.558 21.694 33.838 21.288 33.818 20.95C33.8111 20.8048 33.7727 20.6628 33.7053 20.534C33.638 20.4051 33.5433 20.2925 33.428 20.204C33.158 20 32.668 20 31.68 20H23.722V10Z" fill="#0B63E5" stroke="#0B63E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_426_1008">
+                    <rect width="48" height="48" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg> -->
+                    <img class="h-[3rem] " src="{{asset('logo.jpeg')}}" alt="">
 
-                    <span class="text-xl font-semibold text-blue-500">ZAP</span>
+                    <span class="text-xl font-semibold text-blue-500">LASRERA</span>
                 </div>
                 
                 <!-- Navigation Links -->

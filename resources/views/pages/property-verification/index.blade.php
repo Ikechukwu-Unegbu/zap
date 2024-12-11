@@ -1,7 +1,7 @@
 @extends('layouts.new-guest')
 
 @section('body')
-<h1 class="text-2xl font-semibold text-center mb-6">Start Building Verification Here</h1>
+<h1 class="text-2xl font-semibold text-center mb-6">Start Property Verification Here</h1>
             
             <!-- Form -->
             <form action="{{route('verify')}}" method="POST" class="space-y-4">

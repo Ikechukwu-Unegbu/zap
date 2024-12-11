@@ -41,7 +41,7 @@ class PropertyService
             // Handle failure responses
             return [
                 'success' => false,
-                'message' => $response->json('message') ?? 'Failed to search documents.',
+                'message' => $response->json('message') ?? 'Failed to search documents due to poor network',
                 'status_code' => $response->status(),
                 'data'=>[]
             ];
